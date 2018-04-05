@@ -19,6 +19,7 @@ class App < Sinatra::Base
     @number.times do 
       @phrases << @phrase
     end
+    "#{@phrases}"
   end
 
 end
